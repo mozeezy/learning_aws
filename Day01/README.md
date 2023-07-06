@@ -27,3 +27,13 @@
 - These servers provide various on-demand services and are maintained by cloud providers (i.e. AWS). This eliminates the need for companies to invest huge amounts of capital and expertise into building and maintaining physical servers.
 - A huge benefit of the cloud is that it allows for companies to scale up or down as they please, since cloud services follow the pay-as-you-go model.
   - This means that you only pay for what you need and use.
+
+#### Cloud Delivery Models
+1. Infrastructure as a service (IaaS)
+  - In this model, the cloud providers only provide the data center while allowing users the flexibility of having their own operating systems, application, and security.
+
+2. Platform as a service (PaaS)
+  - In this model, the cloud providers provide the data center as well as the operating systems and allows the user to focus on application development.
+
+3. Software as a service (SaaS)
+  - In this model, the cloud providers provide everything. The only thing users are responsible for is who can access these applications and managing the underlying software.
