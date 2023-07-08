@@ -50,7 +50,7 @@
     - Analogy: You only pay for certain rooms in a building.
 
 ##### Step 4 - Add Storage
-- Here is where you can add Elastic Block Stores (EBS) -- which are volumes -- to your instances. Think of a C: drive in windows, which allows for persistence of data.
+- Here is where you can add storage such as Elastic Block Stores (EBS) -- which are volumes -- to your instances. Think of a C: drive in windows, which allows for persistence of data.
 
 ##### Step 5 - Configure Security Groups
 - These are firewall rules that controls who can access the EC2 instance.
