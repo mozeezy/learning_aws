@@ -69,3 +69,33 @@
 | Ideal for content distribution, big data, gaming applications, and more. | Ideal for data recovery and backups         | Ideal for storing secondary backups and replicated data      | For all glacier storage classes, you pay for the storage and retrieval.              |                                                                                          | Ideal for long-term storage                           | No cost on retrieval                                            |
 
 
+##### S3 Encryption
+- Server-side encryption (default)
+  - When a user uploads an item to an S3 bucket, it will be encrypted by S3 for security purpose.
+- Client-side encryption
+  - When a user encrypts the file before uploading it to the bucket.
+
+##### AWS Snow Family
+- These are highly portable devices to migrate data in and out of AWS and process data at the edge zone.
+- When it comes to data transfer, a challenge would be to transfer huge data over the network. This is because we have limited bandwidth and connectivity as well as we might be incurring a high network fee.
+- With the Snow Family, we receive a physical device where we upload the data to this device and ship it back to AWS facility to be uploaded to an S3 bucket.
+- Different types of Snow Family devices
+  1. Snowball Edge
+    - We pay for each transfer job.
+    - Alternative to moving data across the network.
+  2. Snowcone
+    - A smaller device that can withstand harsh condition.
+    - Ideal for edge computing and data transfer.
+    - We can either ship the device back to an AWS office or use an AWS DataSync service to send data online, provided there's internet access.
+  3. Snowmobile
+    - An actual truck that can carry exabytes of data.
+    - Very secure, temperature-controlled, video-surveillance.
+- Another use cases of snow family devices is edge computing (i.e. computing at edge locations such as underground or in the ocean - places far from an internet connection)
+
+##### Storage Gateway
+- We can use S3 as part of the "hybrid cloud" where part of our infrastructure is on-premise and the other on the cloud.
+- Storage Gateway allows us to expose data from S3 buckets to our on-premise infrastructure.
+- Types of Storage Gateway
+  1. File Gateway
+  2. Volume Gateway
+  3. Tape Gateway
