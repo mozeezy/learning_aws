@@ -62,7 +62,7 @@
 ##### Summary
 - Docker: container technology to run application
 - ECS: runs Docker containers on EC2 instances
-- Fargate: run Rocker containers without EC2 instances
+- Fargate: run Docker containers without EC2 instances
 - ECR: Private Docker Image Repository
 - Batch: run batch jobs on AWS across managed EC2 instances.
 - Lightsail: lightweight version of AWS
